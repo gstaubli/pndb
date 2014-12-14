@@ -54,7 +54,7 @@ for i in range(times_to_test):
 	t1 = time.time()
 	test_mmap()
 	t2 = time.time()
-	print("Memory Mapped: %f" % (t2-t1))
+	print("Pseudo-Normalized: %f" % (t2-t1))
 
 for i in range(times_to_test):
 	t1 = time.time()
